@@ -1,0 +1,55 @@
+<!-- 
+### Create a website having 3 separate pages.
+
+#### TODO 💻:
+
+1. Create a website having 3 separate pages.
+2. Each page must be connected.
+3. Each page must have the same structure. But the content can be different. The sample structure of a page has been shown below.
+4. There must be different images on each page.
+5. For the link use both relative path and absolute path depending upon the type of link.
+6. In the footer, we have some social media links also, connect each media link to your profile page.
+7. For mail me link in the footer, connect it to a mail. The mail must have a subject and body part also.
+8. Back to top button must take to the top of the page once clicked.
+
+---
+
+![alt text](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/html-css/ex-1.png)
+
+---
+
+- use appropriate semantic tags and keep the nesting and indentation clean.
+- All the absolute must open in a new window. -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Avengers</title>
+        <link rel="stylesheet" href="stlye.css">
+    </head>
+    <body>
+        <main id="top">
+            <h1>Avengers</h1>
+            <a href="CapAm.html" target="_blank">Captain America</a> <a href="BruceBanner.html" target="_blank">Hulk</a> <a href="Stark.html" target="_blank">Iron Man</a> <a href="www.google.com"  target="_blank">Google</a>
+            <h3>Earth's mightiest heroes</h3>
+            <img src="Avengers.jpg" alt="Avengers Team">
+            <p>
+                The Avengers were a team of extraordinary individuals, with either superpowers or other special characteristics. Its purpose was to protect global stability from inner or extraterrestrial threats. Though primarily affiliated with the United States of America, they worked with the peaceful interests of the whole world in mind rather than a specific country or organization. The Avengers were first assembled by S.H.I.E.L.D. when Loki invaded Earth with his Chitauri army to conquer the planet. The team, consisting of Iron Man, Thor, Captain America, Black Widow, Hawkeye and Hulk, defeated Loki and went their separate ways for a while.
+            </p>
+        </main>
+        <footer>
+            <span><h4>Footer</h4></span>
+            <a href="www.fb.com" target="_blank">Facebook</a> <a href="www.intagram.com" target="_blank">Instagram</a> 
+            <a href="www.twitter.com" target="_blank">Twitter</a>
+            <div>
+                <button>
+                <a href="mailto:shield@nyc.com?subject=Avengers%20Assemble&body=This%20is%20Steve%20Rogers" target="_blank">Mail me</a> 
+                </button>
+                <button>
+                <a href="#top">Back to top</a>
+                </button>
+            </div>
+        </footer>
+    </body>
+</html>
